@@ -1,0 +1,45 @@
+@charset "UTF-8";
+body {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #858877; }
+
+/* Botão */
+.btn-gelatina {
+  display: inline-block;
+  margin: 8em;
+  padding: .6em;
+  font-family: Arial;
+  font-size: 26px;
+  font-size: 1.625rem;
+  text-decoration: chocolate;
+  color: #fff;
+  border-radius: 3px;
+  background-color: #ff1d74;
+  box-shadow: 0 0 0 -2px #858877, 0 0 0 -1px #ff1d74;
+  border: none;
+  -webkit-transition: -webkit-box-shado .3s;
+  transition: box-shadow .3s; }
+  .btn-gelatina:hover, .btn-gelatina:focus {
+    box-shadow: 0 0 0 -2px #858877, 0 0 0 4px #ff0464;
+    -webkit-transition-timing-function: gelatine 0.5s 1;
+    -moz-transition-timing-function: gelatine 0.5s 1;
+    -o-transition-timing-function: gelatine 0.5s 1;
+    animation: gelatine 0.5s 1; }
+
+@keyframes gelatine {
+  from,
+    to {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1); }
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+    transform: scale(1.1, 0.9); }
+  50% {
+    -webkit-transform: scale(1.1, 9);
+    transform: scale(1.1, 0.9); }
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+    transform: scale(0.95, 1.05); } }
+
+/*# sourceMappingURL=style.css.map */

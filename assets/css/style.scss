@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@import 'mixins';
+@import 'variaveis';
+body {
+    margin: 0 auto;
+    text-align: center;
+    background-color: $color-bg;
+}
+
+
+/* Botão */
+
+.btn-gelatina {
+    display: inline-block;
+    margin: $margin-btn;
+    padding: .6em;
+    font-family: $font-type;
+    @include tamanhoFonte(26);
+    text-decoration: chocolate;
+    color: #fff;
+    border-radius: 3px;
+    background-color: $colorBtn;
+    box-shadow: 0 0 0 -2px $color-bg, 0 0 0 -1px $colorBtn;
+    border: none;
+    -webkit-transition: -webkit-box-shado .3s;
+    transition: box-shadow .3s;
+    &:hover,
+    &:focus {
+        box-shadow: 0 0 0 -2px $color-bg, 0 0 0 4px darken(#ff1d74, 5%);
+        @include animation(gelatine .5s 1);
+    }
+}
+
+@keyframes gelatine {
+    from,
+    to {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1)
+    }
+    25% {
+        -webkit-transform: scale(.9, 1.1);
+        transform: scale(1.1, .9)
+    }
+    50% {
+        -webkit-transform: scale(1.1, 9);
+        transform: scale(1.1, .9)
+    }
+    75% {
+        -webkit-transform: scale(.95, 1.05);
+        transform: scale(.95, 1.05)
+    }
+}
