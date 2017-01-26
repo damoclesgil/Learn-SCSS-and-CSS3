@@ -6,19 +6,19 @@
 3. Open Command Prompt With Ruby 
 
 ## CLI
-1. Install
+Install
 ```
 $ gem install sass
 ```
-2. Compile SASS
+Compile SASS
 ```
 $ sass style.scss     
 ```
-3.Create version: CSS
+Create a version of CSS
 ```
 $ sass style.scss:style.css    
 ```    
-4. Create a version and alterate in RunTime
+Create a version of CSS and alterate in RunTime
 ```
 $ sass --watch style.scss:style.css   
 ``` 
