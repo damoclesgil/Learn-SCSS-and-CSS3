@@ -1,4 +1,4 @@
-## Getting Start
+# Getting Start
 ![sass.jpg](assets/images/sass.jpg)
 
 1. [Install Wamp Server](https://sourceforge.net/projects/wampserver/)
@@ -22,10 +22,10 @@ Create a version of CSS and alterate in RunTime
 ```
 $ sass --watch style.scss:style.css   
 ``` 
-# More SASS
+## More SASS
 [SASS](https://github.com/sass/sass)
 
-## Learn SCSS With ITCSS
+# Learn SCSS With ITCSS
 How do I make my CSS scalable and maintainable? It’s a concern for every front-end developer. ITCSS has an answer.
 
 ## What is ITCSS?
