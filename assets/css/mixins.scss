@@ -1,3 +1,25 @@
+@mixin tituloh1 {
+    h1 {
+        text-align: center;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        color: $corVerde;
+    }
+}
+
+@mixin paragrafo {
+    p {
+        color: $verdeClaro;
+        text-indent: 20px;
+        text-align: justify;
+        font: {
+            family: serif;
+            size: 1.2em;
+            weight: 600;
+        }
+    }
+}
+
 @mixin tamanhoFonte($size: 24, $base: 16) {
     font-size: $size + px;
     font-size: ($size/$base) * 1rem;

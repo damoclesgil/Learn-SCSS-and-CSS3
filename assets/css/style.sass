@@ -1,0 +1,62 @@
+@charset "UTF-8"
+
+@import mixins
+@import variaveis
+
+body
+  background-color: $color-bg
+
+/* Botão
+
+.btn-gelatina
+  display: inline-block
+
+  // margin: $margin-btn;
+  padding: .6em
+  font-family: $font-type
+
+  +tamanhoFonte(26)
+
+  text-decoration: chocolate
+  color: #fff
+  border-radius: 3px
+  background-color: $colorBtn
+  box-shadow: 0 0 0 -2px $color-bg, 0 0 0 -1px $colorBtn
+  border: none
+  -webkit-transition: -webkit-box-shado .3s
+  transition: box-shadow .3s
+
+  &:hover,
+  &:focus
+    box-shadow: 0 0 0 -2px $color-bg, 0 0 0 4px darken(#ff1d74, 5%)
+
+    +animation(gelatine 0.5s 1)
+
+@keyframes gelatine
+  from,
+  to
+    -webkit-transform: scale(1, 1)
+    transform: scale(1, 1)
+
+  25%
+    -webkit-transform: scale(0.9, 1.1)
+    transform: scale(1.1, 0.9)
+
+  50%
+    -webkit-transform: scale(1.1, 9)
+    transform: scale(1.1, 0.9)
+
+  75%
+    -webkit-transform: scale(0.95, 1.05)
+    transform: scale(0.95, 1.05)
+
+div
+  +tituloh1
+  +paragrafo
+
+  background-color: chocolate
+  width: 500px
+  align-items: center
+  position: absolute
+  left: 50%
+  top: 50%

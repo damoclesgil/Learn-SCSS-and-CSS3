@@ -2,8 +2,6 @@
 @import 'mixins';
 @import 'variaveis';
 body {
-    margin: 0 auto;
-    text-align: center;
     background-color: $color-bg;
 }
 
@@ -12,7 +10,7 @@ body {
 
 .btn-gelatina {
     display: inline-block;
-    margin: $margin-btn;
+    // margin: $margin-btn;
     padding: .6em;
     font-family: $font-type;
     @include tamanhoFonte(26);
@@ -49,4 +47,15 @@ body {
         -webkit-transform: scale(.95, 1.05);
         transform: scale(.95, 1.05)
     }
+}
+
+div {
+    @include tituloh1;
+    @include paragrafo;
+    background-color: chocolate;
+    width: 500px;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
 }

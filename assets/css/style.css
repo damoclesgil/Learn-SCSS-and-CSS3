@@ -1,13 +1,10 @@
 @charset "UTF-8";
 body {
-  margin: 0 auto;
-  text-align: center;
   background-color: #858877; }
 
 /* Botão */
 .btn-gelatina {
   display: inline-block;
-  margin: 8em;
   padding: .6em;
   font-family: Arial;
   font-size: 26px;
@@ -41,5 +38,24 @@ body {
   75% {
     -webkit-transform: scale(0.95, 1.05);
     transform: scale(0.95, 1.05); } }
+div {
+  background-color: chocolate;
+  width: 500px;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%; }
+  div h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    color: #2c6700; }
+  div p {
+    color: #29E033;
+    text-indent: 20px;
+    text-align: justify;
+    font-family: serif;
+    font-size: 1.2em;
+    font-weight: 600; }
 
 /*# sourceMappingURL=style.css.map */
