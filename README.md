@@ -1,9 +1,8 @@
 # Getting Start
 ![sass.jpg](assets/images/sass.jpg)
 
-1. [Install Wamp Server](https://sourceforge.net/projects/wampserver/)
-2. [Install Ruby](http://rubyinstaller.org/)
-3. Open Command Prompt With Ruby 
+1. [Install Ruby](http://rubyinstaller.org/)
+2. Open Command Prompt With Ruby 
 
 ## CLI
 Install
@@ -24,12 +23,13 @@ $ sass --watch style.scss:style.css
 ``` 
 ## More SASS
 [SASS](https://github.com/sass/sass)
+[SASS & LESS](https://gist.github.com/chriseppstein/674726)
 
 # Learn SCSS With ITCSS
 How do I make my CSS scalable and maintainable? It’s a concern for every front-end developer. ITCSS has an answer.
 
 ## What is ITCSS?
-ITCSS (SCALABLE AND MAINTAINABLE CSS ARCHITECTURE)ITCSS stands for Inverted Triangle CSS and it helps you to organize your project CSS files in such way that you can better deal with (not always easy-to-deal with) CSS specifics like global namespace, cascade and selectors specificity.
+ITCSS (SCALABLE AND MAINTAINABLE CSS ARCHITECTURE) stands for Inverted Triangle CSS and it helps you to organize your project CSS files in such way that you can better deal with (not always easy-to-deal with) CSS specifics like global namespace, cascade and selectors specificity.
 
 
 ![triangle.png](assets/images/triangle.png)
