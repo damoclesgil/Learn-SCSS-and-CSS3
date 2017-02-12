@@ -55,5 +55,5 @@ List of pseudo-classes
 :disabled
 ```
 ## More CSS3
-[Maujor Book]("../assets/files/livro-CSS3-and-SASS_Maujor.rar")
+![livro-CSS3-and-SASS_Maujor.rar]("../assets/files/livro-CSS3-and-SASS_Maujor.rar")
 [Selectors](http://www.maujor.com/tutorial/guia-completo-seletores-css3.php)
