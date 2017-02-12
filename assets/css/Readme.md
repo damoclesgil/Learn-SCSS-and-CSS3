@@ -1,6 +1,6 @@
 #CSS Selectors
 
-UniversaL Selector
+Universal Selector
 ```
 *{}
 ```
@@ -55,5 +55,4 @@ List of pseudo-classes
 :disabled
 ```
 ## More CSS3
-[livro-CSS3-and-SASS_Maujor.rar](../assets/files/livro-CSS3-and-SASS_Maujor.rar)
 [Selectors](http://www.maujor.com/tutorial/guia-completo-seletores-css3.php)
