@@ -1,0 +1,40 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/layout.scss";
+ 
+@include sticky-footer(60px, "#tudo", "#rodape-tudo", "#rodape");
+
+$cor-texto: #f00;
+
+body {
+	margin: 0;
+	font: 20px sans-serif;
+}
+
+h1 { 
+	color: $cor-texto;
+}
+.secundaria { 
+	color: $cor-texto;
+	width: 20%;
+	float: left;
+	border: 1px solid #ccc;
+} 
+
+.principal { 
+	color: $cor-texto;
+	width: 78%;
+	float: right;
+	border: 1px solid #ccc;	
+}
+
+.rodape {
+	box-sizing: border-box;
+	clear: both;
+	height: 60px;
+	border: 1px solid #ccc;
+	}

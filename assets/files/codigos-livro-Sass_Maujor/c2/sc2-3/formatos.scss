@@ -1,0 +1,15 @@
+﻿$cor-texto: red;
+
+.main { 
+	color: $cor-texto;
+	width: 78%;
+	float: right;
+	border: 1px solid #ddd;	
+}
+
+ul {color:blue;
+	li {color:green;
+		a {color:yellow;
+		}
+	}
+}

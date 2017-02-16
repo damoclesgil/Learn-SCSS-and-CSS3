@@ -1,0 +1,21 @@
+﻿@import "compass/css3";
+
+.box-shadow div {
+  width: 100px;
+  height: 100px;
+  background: #eee;
+  margin: 50px;
+  float: left;
+}
+
+#padrao {
+  @include single-box-shadow;
+}
+ 
+#personalizado {
+  @include box-shadow(red 5px 5px 10px);
+}
+ 
+#multiplo {
+  @include box-shadow(red 5px 5px 4px, lime 16px -6px 5px, blue -10px -10px, yellow -28px 28px);
+}
