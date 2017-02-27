@@ -24,15 +24,21 @@ $ sass --watch style.scss:style.css
 
 ## More CSS3
 http://bit.ly/palermo4css3
+
 http://www.w3.org/Style/CSS/
+
 http://html5please.us/#css
+
 http://www.modernizr.com
+
 http://bit.ly/css3-msdn
+
 http://www.css3maker.com
 
 
 ## More SASS
 [SASS](https://github.com/sass/sass)
+
 [SASS & LESS](https://gist.github.com/chriseppstein/674726)
 
 # Learn SCSS With ITCSS
