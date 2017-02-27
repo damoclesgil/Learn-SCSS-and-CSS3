@@ -205,5 +205,24 @@ p.margin-one{
 }
 li{
     display: inline;
-    margin-right: 10px;
+    margin-right: 10px;n
+}
+/* Estilizar Tables */
+
+#topics li:nth-child(2n){
+	background-color: #FFBB77;
+}
+#topics li:nth-child(2n -1){
+	background-color: #FFD4A8;
+}
+#topics li h1{
+	font-size: 1em;
+}
+#topics li:hover{
+	background-color: #432100;
+	color: #FFEDDB;
+}
+#topics li:hover p{
+	display: inherit;
+	color: #AA5500;
 }
