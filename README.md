@@ -23,6 +23,10 @@ $ sass --watch style.scss:style.css
 ``` 
 
 ## More CSS3
+https://tympanus.net/codrops/css_reference/
+
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Reference
+
 http://bit.ly/palermo4css3
 
 http://www.w3.org/Style/CSS/
