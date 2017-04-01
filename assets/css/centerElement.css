@@ -1,0 +1,31 @@
+body {
+  background-color: #1f1f1f;
+  color: #bfbfbf;
+  height: 1000px; }
+
+h1 {
+  font-weight: normal; }
+
+em {
+  color: #e07a05; }
+
+.container {
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  border: 1px solid #627da0; }
+  .container .blueBox {
+    background: #627da0;
+    height: 90px;
+    width: 100px;
+    margin: 0 auto; }
+  .container h1 {
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+    font-size: 1.1em; }
+
+/*# sourceMappingURL=centerElement.css.map */

@@ -67,3 +67,4 @@ Those layers are as follows:
 ## More ITCSS
 - [Slide ITCSS](http://slides.com/vazdanilo/organizacao-css#/31)
 - [Documentation](http://itcss.io/)
+- [Live Reload](https://marketplace.visualstudio.com/items?itemName=bajdzis.vscode-refresh-html)
