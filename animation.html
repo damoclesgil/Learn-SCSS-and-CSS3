@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/css/pageanimation.css" rel="stylesheet">
+    <link href="assets/css/animate.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <a href="#" class="button">Olá!</a>
+    <input type="text" name="firstName">
+
+    <div class="transitionHover">
+    </div>
+
+    <script src="assets/js/jquery-3.2.0.min.js"></script>
+    <script>
+        $(function() {
+            var animationName = 'animated shake';
+            var animationend = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+
+            $('a.button').on('click', function() {
+                $('input[name=firstName]').addClass(animationName).one(animationend, function() {
+                    $(this).removeClass(animationName);
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
