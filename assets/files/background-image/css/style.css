@@ -1,0 +1,25 @@
+.bg-img {
+    background: url('../imgs/vegeta.jpg') no-repeat;
+    width: 100%;
+    height: 411px;
+}
+
+.bg-img:before {
+    content: '';
+    position: absolute;
+    width: 350px;
+    height: 411px;
+    background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.96));
+}
+
+
+/*
+background: -webkit-linear-gradient (rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 1.0));
+background: rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 1.0);
+
+background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 1.0));
+background: -webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 1.0)); 
+background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 1.0));
+background: linear-gradient(rgba(255, 255, 255, 1.3) 70%, rgba(0, 0, 0, 0.40) 30%);
+
+*/

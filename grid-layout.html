@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS3 Grid Layout</title>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    #main {
+        display: grid;
+        grid-template-areas: "header header" "nav nav" "content aside" "footer footer";
+        grid-template-rows: 15vh 10vh 55vh 20vh;
+    }
+    
+    .mainHeader {
+        grid-area: header;
+        background: red;
+    }
+    
+    .mainNav {
+        grid-area: nav;
+        background: greenyellow;
+    }
+    
+    .mainContent {
+        grid-area: content;
+        background: blue;
+    }
+    
+    .mainAside {
+        grid-area: aside;
+        background: yellow;
+    }
+    
+    .mainFooter {
+        grid-area: footer;
+        background: orange;
+    }
+    /*Breakpoints */
+    
+    @media screen and (max-width: 769px) {
+        body {
+            background: #cdcdcd;
+        }
+        #main {
+            grid-template-areas: "header" "contente" "aside" "footer";
+        }
+    }
+</style>
+
+<body>
+
+    <section id="main">
+        <header class="mainHeader">Header</header>
+        <nav class="mainNav">Nav</nav>
+        <article class="mainContent">Content</article>
+        <aside class="mainAside">Aside</aside>
+        <footer class="mainFooter">Footer</footer>
+
+
+    </section>
+
+
+</body>
+
+</html>

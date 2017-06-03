@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<title>SVG Animation: Simple ideas on how to animate SVG</title>
+
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Raleway:400,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<style>
+
+    #container {
+      position: relative;
+      margin: 0px auto; 
+      display: block; 
+      width: 300px;
+      height: 350px
+    }
+    #vaseobj {
+      position: absolute;
+      bottom: 20px;
+      left: 70px;
+    }
+    #plantobj {
+      position: absolute;
+      bottom: 127px;
+      left: 130px;
+
+      -moz-transform: scale(0, 0);
+      -webkit-transform: scale(0, 0);
+      transform: scale(0, 0);
+
+      -moz-transform-origin: 20%, 100%;
+      -webkit-transform-origin: 20% 100%;
+      transform-origin: 20% 100%;
+
+      -moz-transition: all 1.5s ease;
+      -webkit-transition: all 1.5s ease;
+      transition: all 1.5s ease;
+    }
+
+    #plantobj.grow {
+      -moz-transform: scale(2, 2);
+      -webkit-transform: scale(2, 2);
+      transform: scale(2, 2);
+    }
+</style>
+
+
+
+ <meta name="robots" content="noindex,follow" />
+	</head>
+
+<body>
+<div class="links">
+  <a href="http://designmodo.com/svg-animation/" class="left"> &#8592; Back to Article</a>
+  <a href="http://designmodo.com/" class="right"> Go to Homepage &#8594;</a>
+	<div style="clear: both;"></div>
+</div>
+
+
+<header>
+		<h1>SVG Animation</h1>	
+		<h3>Simple ideas on how to animate SVG</h3>
+	</header>
+<nav>		
+
+
+				<a href="icon-hover.html">Icon Hover</a>
+				<a href="text-animation.html" >Text Animation</a>
+				<a href="vector-animation.html" class="active">Vector Animation</a>
+				
+
+<div id="container">
+		<object data="images/plant.svg" id="plantobj" type="image/svg+xml">
+		</object>
+
+		<object data="images/vase.svg" id="vaseobj" type="image/svg+xml">
+		</object>
+</div>
+
+<script>
+function getSubDocument(embedding_element) {
+  if (embedding_element.contentDocument) {
+    return embedding_element.contentDocument;
+  }
+  else {
+    var subdoc = null;
+    try {
+      subdoc = embedding_element.getSVGDocument();
+    } catch(e) {}
+    return subdoc;
+  }
+}
+
+
+window.onload = function () {
+  var vaseobj = document.getElementById('vaseobj');
+  var vasedoc = getSubDocument(vaseobj);
+  var vs = vasedoc.getElementById('vase');
+  vs.style.cursor = 'pointer';
+
+  var plantobj = document.getElementById('plantobj');
+  vaseobj.onmouseover = function() {
+    plantobj.className = "grow";
+  };
+  vaseobj.onmouseout = function() {
+    plantobj.className = "";
+  }
+};
+</script>
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+/*
+Tutorial Name: SVG Animation: Simple ideas on how to animate SVG
+Author: Samuel Dalusung
+*/
+
+
+/* GENERAL STYLES
+-------------------------------------------------*/
+
+body { background: #27ae60; }
+		
+header h1 {
+    font-size: 63px;
+    font-family: 'Raleway', sans-serif;
+    color: #f5f3ec;
+    font-weight: 800;
+    text-align: center;
+    margin: 40px 0 0;
+}
+
+
+header h3 {
+    font-size: 27px;
+    font-family: 'Lato', sans-serif;
+    color: #9ed7b1;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+}
+
+ul{
+	margin: 50px auto;
+	width: 53.75%;
+    text-align: center;
+}
+
+
+ul li{
+	display: inline-block;
+	margin: 0 10px;
+
+}
+
+
+
+
+nav {
+    margin: 70px auto;
+    text-align: center;
+}
+
+nav a {
+ display: inline-block;
+ text-align: center;
+background: #1f8a4c;
+font-family: 'Raleway', sans-serif;
+color: #dbdede;
+font-weight: 400;
+padding: 5px 15px;
+text-transform: uppercase;
+border-radius: 2px;
+letter-spacing: 1px;
+text-decoration: none;
+}
+
+nav a.active,nav a:hover {
+    background: #67c58f;
+    color: #fff;
+
+}
+
+
+.links{
+	background: #1f8a4c; 
+	padding: 10px; 
+	margin: 0;
+}
+
+
+.links a{
+	color: #fff; 
+	font-family: 'Lato', sans-serif; 
+	text-decoration: none;
+}
+
+
+.links a:hover{
+	color: #67c58f;
+}
+
+.left{
+	float: left;
+}
+
+
+.right{
+	float: right;
+}
+
+
+.center{ margin: 50px auto; display: block; width: 65%; }
+
+
+@media screen and (max-width: 480px) {
+    nav a {
+        margin-top: 15px;
+    }
+}

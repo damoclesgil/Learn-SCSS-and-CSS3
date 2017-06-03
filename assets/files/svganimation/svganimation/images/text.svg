@@ -1,0 +1,94 @@
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="873px"
+	 height="175px" viewBox="0 0 873 175" style="enable-background:new 0 0 873 175;" xml:space="preserve">
+<style type="text/css">
+.st0 {
+    font-family:'Lato-Light'
+}
+
+.st1 {
+    font-size:181.2018px
+}
+
+.st2 {
+    display:none
+}
+
+.st3 {
+    fill:none;
+    stroke:#FFF;
+    stroke-width:3;
+    stroke-miterlimit:10
+}
+
+.st0 {
+    stroke-dasharray:800;
+    stroke-dashoffset:0;
+    -webkit-animation:dash 2s linear forwards;
+    -moz-animation:dash 2s linear forwards;
+    animation:dash 2s linear forwards;
+    opacity:0
+}
+
+@-webkit-keyframes dash {
+from {
+    stroke-dashoffset:800;
+}
+
+to {
+    stroke-dashoffset:1;
+    opacity:1;
+}
+}
+
+@-moz-keyframes dash {
+from {
+    stroke-dashoffset:800;
+}
+
+to {
+    stroke-dashoffset:1;
+    opacity:1;
+}
+}
+
+@keyframes dash {
+from {
+    stroke-dashoffset:800;
+}
+
+to {
+    stroke-dashoffset:1;
+    opacity:1;
+}
+}
+
+.st1 {
+    stroke-dasharray:800;
+    stroke-dashoffset:0;
+    -webkit-animation:dash 2s linear forwards;
+    -moz-animation:dash 2s linear forwards;
+    animation:dash 2s linear forwards;
+
+    -webkit-animation-delay:1.6s;
+    -moz-animation-delay:1.6s;
+     animation-delay:1.6s;
+}
+
+#container {
+    stroke-dasharray:50;
+    stroke-dashoffset:0;
+    -webkit-animation:dash 1.5s linear forwards;
+    -moz-animation:dash 1.5s linear forwards;
+    animation:dash 1.5s linear forwards;
+}
+
+</style>
+
+<g id="text" width="100%">
+	<text transform="matrix(1.0401 0 0 1 17 154.4297)" class="st3 st0 st1" style="font-size: 175px; font-family: 'Lato', sans-serif;">Dâmocles</text>
+</g>
+<g id="container" width="100%">
+	<rect class="st3" width="873" height="175"/>
+</g>
+</svg>
