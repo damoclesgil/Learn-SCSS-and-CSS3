@@ -1,0 +1,40 @@
+.button {
+    // 1. Default Styles
+    background: var(--bgColor);
+    padding: var(--size);
+    line-height: var(--size);
+    border: var(--outline);
+    font-size: var(--size);
+    // 2. Default Values
+    --bgColor: lightgreen;
+    --outline: none;
+    --size: 1rem;
+    // 3. Variances
+    &--blue {
+        --bgColor: lightblue;
+    }
+    &--pink {
+        --bgColor: hotpink;
+    }
+    &--large {
+        --size: 1.5rem;
+    }
+    &--outlined {
+        --outline: 2px solid currentColor;
+    }
+}
+
+.button-gradient {
+    background: linear-gradient(var(--gradiencia), var(--gradienciaStart), var(--gradienciaStop));
+    --gradiencia: 60deg;
+    --gradienciaStart: #924594;
+    --gradienciaStop: #f8598b;
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.button-gradient:hover {
+    --gradiencia: 0deg;
+}

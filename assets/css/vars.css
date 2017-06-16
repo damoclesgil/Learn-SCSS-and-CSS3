@@ -1,0 +1,32 @@
+.button {
+  background: var(--bgColor);
+  padding: var(--size);
+  line-height: var(--size);
+  border: var(--outline);
+  font-size: var(--size);
+  --bgColor: lightgreen;
+  --outline: none;
+  --size: 1rem; }
+  .button--blue {
+    --bgColor: lightblue; }
+  .button--pink {
+    --bgColor: hotpink; }
+  .button--large {
+    --size: 1.5rem; }
+  .button--outlined {
+    --outline: 2px solid currentColor; }
+
+.button-gradient {
+  background: linear-gradient(var(--gradiencia), var(--gradienciaStart), var(--gradienciaStop));
+  --gradiencia: 60deg;
+  --gradienciaStart: #924594;
+  --gradienciaStop: #f8598b;
+  border: 0;
+  padding: 10px;
+  cursor: pointer;
+  color: white; }
+
+.button-gradient:hover {
+  --gradiencia: 0deg; }
+
+/*# sourceMappingURL=vars.css.map */
