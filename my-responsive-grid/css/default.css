@@ -1,0 +1,97 @@
+/* Minimal Reset CSS */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Font Face */
+@font-face {
+  font-family: 'nomefonte';
+  src: url("../fonts/nomefonte.eot");
+  src: url("../fonts/nomefonte.eot?#iefix") format("embedded-opentype"), url("../fonts/nomefonte.woff") format("woff"), url("../fonts/nomefonte.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Desktop */
+@media screen and (min-width: 73.75rem) {
+  .conteudo {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 48rem) {
+  .d-flex-desk {
+    display: flex;
+  }
+  .conteudo {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  .coluna {
+    height: 30rem;
+    box-sizing: border-box;
+    display: block;
+    margin-right: 1.69491525%;
+    width: 49.15254237%;
+  }
+}
+
+/* Tablet and Mobile */
+.conteudo {
+  max-width: 73.75rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.mt-1_5 {
+  margin-top: 1.5rem;
+}
+
+.section {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-family: 'nomefonte', sans-serif;
+}
+
+h1 {
+  line-height: 1rem;
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width: 48rem) {
+  .d-flex-mb {
+    display: flex;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
