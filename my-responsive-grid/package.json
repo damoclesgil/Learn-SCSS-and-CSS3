@@ -1,13 +1,27 @@
 {
-  "dependencies": {
-    "gulp-concat": "^2.6.1",
-    "run-sequence": "^2.1.0"
+  "name": "nomeprojeto",
+  "version": "1.0.0",
+  "description": "Desription do Projeto",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "damoclesgil",
+  "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",
-    "gulp-open": "^2.0.0",
+    "gulp-clean-css": "^3.7.0",
     "gulp-sass": "^3.1.0",
     "gulp-watch": "^4.3.11"
+  },
+  "dependencies": {
+    "gulp-clean": "^0.3.2",
+    "gulp-cli": "^1.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-uglify": "^3.0.0",
+    "run-sequence": "^2.1.0"
   }
 }
